@@ -83,5 +83,33 @@
 
 ?>
 
+<?php
+    $arr1 = array(1,2,3,4,6,10);
+    $arr2 = array(1,10);
 
+
+    // blueOcean($arr1, $arr2);
+    
+    $array = array_diff($arr1, $arr2);
+    $array = array_values($array);
+
+    print_r($array); 
+
+   // print_r($arr1); 
+
+    // function blueOcean($arr1, $arr2){
+    //     $len_arr1 = count($arr1);
+    //     $len_arr2 = count($arr2);
+
+    //     for($i = 0; $i < $len_arr2; $i++){
+    //         for($j = 0; $j < $len_arr1; $j++){
+    //             if($arr2[$i] == $arr1[$j]){
+    //                 unset($arr1[$j]);
+    //             }
+    //         }
+    //     }
+    //     $arr1 = array_values($arr1);
+    // }
+
+?>
 
